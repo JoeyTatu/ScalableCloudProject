@@ -120,8 +120,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
 # Storage
-AWS_ACCESS_KEY_ID='ASIATUYJP7SUKH6D5CLN'
-AWS_SECRET_ACCESS_KEY='inlczGVVA+ei7INiZhN2sU3XumQU7DZOe+Hrud6W'
 AWS_STORAGE_BUCKET_NAME='x15015556-examplestorage'
+AWS_QUERYSTRING_AUTH = False
+
+# Access keys only valid for 2 hours.
 
