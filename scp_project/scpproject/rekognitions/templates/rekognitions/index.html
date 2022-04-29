@@ -1,0 +1,30 @@
+{% extends '../base.html' %}
+
+{% from boto.s3.connection import S3Connection %}
+{% import environ %}
+
+{% env = environ.Env() %}
+{% environ.Env.read_env() %}
+
+{% AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID') %}
+{% AWS_SECRET_ACCESS_KEY = env('AWS_SECRET_ACCESS_KEY') %}
+{% AWS_STORAGE_BUCKET_NAME = env('AWS_STORAGE_BUCKET_NAME') %}
+
+
+{% block content %}
+
+    <h1>Photos</h1>
+    <u>
+    
+    {% conn = S3Connection(AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) %}
+    
+    {% for key in conn.list_objects(Bucket=AWS_STORAGE_BUCKET_NAME)['Contents' %}
+        <li>{% print (key['Key']) %}</li>
+    {% endfor %}
+    </u>
+
+{% endblock content %}
+
+ <!--conn = S3Connection(AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)-->
+ <!--   for key in conn.list_objects(Bucket=AWS_STORAGE_BUCKET_NAME)['Contents']:-->
+ <!--       context = (key['Key'])-->

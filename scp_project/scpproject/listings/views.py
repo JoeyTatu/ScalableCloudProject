@@ -16,3 +16,4 @@ def show(request, listing_id):
     except Listing.DoesNotExist:
         raise Http404("Listing does not exist")
     return render(request, 'listings/show.html', {'listing': listing})
+

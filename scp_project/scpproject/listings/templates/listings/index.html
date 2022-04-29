@@ -1,11 +1,16 @@
-<h1>Newest Listings</h1>
+{% extends '../base.html' %}
 
-{% if newest_listings %}
-    <ul>
-    {% for listing in newest_listings %}
-        <li><a href="{% url 'listings:show' listing.id %}">{{ listing.address }} - €{{ listing.price }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>There are no listings recorded.</p>
-{% endif %}
+{% block content %}
+    <h1>Newest Listings</h1>
+    
+    {% if newest_listings %}
+        <ul>
+        {% for listing in newest_listings %}
+            <li><a href="{% url 'listings:show' listing.id %}">{{ listing.address }} - €{{ listing.price }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are no listings recorded.</p>
+    {% endif %}
+
+{% endblock content %}
