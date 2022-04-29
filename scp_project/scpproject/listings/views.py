@@ -12,7 +12,7 @@ def index(request):
     
 def show(request, listing_id):
     try:
-        listing = Listing.object.get(pk=listing_id)
+        listing = Listing.objects.get(pk=listing_id)
     except Listing.DoesNotExist:
         raise Http404("Listing does not exist")
     return render(request, 'listings/show.html', {'listing': listing})
