@@ -1,0 +1,150 @@
+commit 36c5a8633d50225b17ec5d6c834c6df313d9aedf
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Mon 14 March 12:37:11 2022 +0000
+
+    first commit
+
+commit 354b3c846e89d56d87a8d3430b676ae599cd9148
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Tue 15 March :MIN:SEC 2022 +0000
+
+    Working on demoproj to deploy on Elastic Beanstalk.
+	
+commit 88a6df6ccbe6c13881f121a988a5592f2ef4d379
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Wed 16 March :MIN:SEC 2022 +0000
+
+    Trying to deploy to ELB again. Servers overloaded yesterday
+	
+commit 031e19813eccb63de9d1dd56dadd2b4330d9faf4
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Wed 23 March 16:02:45 2022 +0000
+
+    Going over Cloud9 stuff from CloudPlatProg
+
+commit b412088096f06a4ad5c6c6ca0d11fd02e531c238
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Wed 23 March 23:45:19 2022 +0000
+	
+	This is stupdid. Can't get code to work. Will try tomorrow. Done for today!
+
+commit 9e8202e7514fcca2dd7612a0f76524358b4f66df
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Thu 24 March :MIN:SEC 2022 +0000
+	
+	Yes! Got the code working! Finally!
+
+commit ba60912bbfabeb367623808feedc3084b0526146
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Fri 25 March :MIN:SEC 2022 +0000
+	
+	Revising S3 buckets
+	
+commit 1df9ff5aa934a590f05474ff158b7869aace7395
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Mon 28 March :MIN:SEC 2022 +0100
+	
+	Working on AWS Rekognition to recognise the features of property.
+
+commit 33f64347ae88059961908395a89bb76c953d94f2
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Wed 30 March :MIN:SEC 2022 +0100
+	
+	AWS can get Rekt! Minor updates. AWS Rekognition is being a pain.
+	
+commit ca5e27b8cc41c74e7166ebc7c169cad0ccd744ff
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Thu 31 March :MIN:SEC 2022 +0100
+	
+	Think AWS Rekognition is working.
+	
+commit 6f362a31e057ea631aad7304e10748af714cc12c
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Fri 1 April :MIN:SEC 2022 +0100
+	
+	Providing sample code for Ravina who's having trouble. 
+	
+commit a854fb665e96015698e6fc92be08889e9575b812
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Sat 2 April :MIN:SEC 2022 +0100
+	
+	Adding Ravina's code that she has so I can look at it.
+
+commit 78fffec0a0d07a164621e00b4a8b312a122da5e2
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Sun 3 April :MIN:SEC 2022 +0100
+	
+	Ravina: Added comments to explain what each part does. Expected to have more work from her.
+	
+commit 5cad0c682233bb76e4d0b160b35e173c6bc7f558
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Wed 6 April :MIN:SEC 2022 +0100
+	
+	Link for resources for Ravina. Started working on server to communicate to individual apps. 
+
+commit 7a9c0442359ae49246806e38805755139471b73c
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Fri 8 April :MIN:SEC 2022 +0100
+	
+	Fixed code for server. Server (bankend) and my app communicating.
+
+commit 0853cdf852ec6122905516a223e18d1cbbbbfd1c
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Sat 9 April :MIN:SEC 2022 +0100
+	
+	Forked Cormac's code
+
+commit 5dbd852dc1b70895a98a4b4a7f32ed254e6cc712
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Mon 11 April :MIN:SEC 2022 +0100
+	
+	Had a look at Cormac's code and trying to integrate it. No luck yet.
+
+commit 5ce41255a19f17460f822c6145c0b995aad574b6
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Mon 11 April :MIN:SEC 2022 +0100
+	
+	Forked Ravina's code. Seemingly no preogress. 
+
+commit a4767362252d6397e3c9958608e9c18121ca1f56
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Wed 13 April :MIN:SEC 2022 +0100
+	
+	Forked Cormac's updated code. Trying to get it to communicate with server.
+
+commit 77f383ebd0fee709c4726b4b4f3f19d7bf503ce7
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Fri 15 April :MIN:SEC 2022 +0100
+	
+	Cormac's and my app communicating with server. Waiting on Ravina's. (Self-note: Cormac on holiday next week)
+
+commit 384aeec011e4ca8a50c8e31b9ed008d3bbde0193
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Mon 18 April :MIN:SEC 2022 +0100
+	
+	Started working on personal video. Testing server and apps.
+	
+commit a23c36a37ad83b0df465b818ef39138ae9107e40
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Wed 20 April :MIN:SEC 2022 +0100
+	
+	Finished video. Still waiting on Ravina's integration. She seems to ignore me though.
+	
+commit 2037142bd8a096c57f41a07412b6571b8691f396
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Fri 22 April :MIN:SEC 2022 +0100
+	
+	Started on group video.
+	
+commit 22845e75c4b7be0a0bbe9752ebf815121d1e7153
+Author: Joey Tatú <x15015556@Student.ncirl.ie>
+Date:   Sat 23 April 12:48:01 2022 +0100
+	
+	Moving to new repo. Ravina assumed I wasn't submitting. No-one asked me thouhg.
+	
+	
+
+
+	
+
+	

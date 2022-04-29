@@ -1,0 +1,36 @@
+2022-02-20:Joey Tatú::first commit
+
+2022-02-20:Joey Tatú::Adding Project Description Draft
+
+2022-02-20:Joey Tatú::Adding branches
+
+2022-02-20:Joey Tatú::null
+
+2022-03-09:ravina-mestry::Proposal for Auction Site Project
+2022-03-10:Cormac Liston::mOSCOW UPLOAD
+
+2022-03-10:Cormac Liston: (origin/comac-listing, cormac-listing):moscow upload
+
+2022-03-10:Joey Tatú: (origin/joey-rekognition, joey-rekognition):Added Proposal
+
+2022-03-10:Joey Tatú: (origin/ravina-expenses, ravina-expenses):Moved Ravina's file to her branch
+
+2022-03-10:Joey Tatú::Removed Ravina's file from 'main'
+
+2022-03-11:Joey Tatú: (HEAD -> main, origin/main, origin/HEAD):Added Sys Arc diagram
+
+2022-03-14:EC2 Default User::Iitial Load. Listing populated not styling
+
+2022-03-14:EC2 Default User::styling added - incomplete
+
+2022-03-14:EC2 Default User::Added data and also Multithread testing
+
+2022-03-14:cormacio100-student::Delete tester_multithread3.py
+2022-03-14:cormacio100-student::Delete tester_multithread_multi_url.py
+2022-03-14:cormacio100-student::Delete list_matching2.py
+2022-03-14:cormacio100-student::Delete list_matching4.py
+2022-03-14:cormacio100-student::Delete substrings.py
+2022-03-14:cormacio100-student::Delete substrings2.py
+2022-03-14:EC2 Default User::delete folder
+
+2022-03-14:EC2 Default User: (origin/cormac-listing):multithreading tests
