@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from boto.s3.connection import S3Connection
+
 import environ
 
 env = environ.Env()
@@ -13,11 +13,8 @@ AWS_STORAGE_BUCKET_NAME = env('AWS_STORAGE_BUCKET_NAME')
 def index(request):
     
     # get all images in s3 bucket
-    conn = S3Connection(AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)
-    for key in conn.list_objects(Bucket=AWS_STORAGE_BUCKET_NAME)['Contents']:
-        context = (key['Key'])
     
-    return render(request, 'rekognition/index.html', context)
+    return render(request, 'rekognition/index.html')
 
 def show(request, photo):
     # Show Rekognition details of photo
